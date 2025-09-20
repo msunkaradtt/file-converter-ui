@@ -1,8 +1,8 @@
 // src/App.jsx
-import { useFileStore } from './store';
+import { useFileStore, API_URL } from './store';
 import FileUpload from './components/FileUpload';
 
-const API_URL = 'http://localhost:8000';
+//const API_URL = 'http://localhost:8000';
 
 const formatBytes = (bytes, decimals = 2) => {
   if (!+bytes) return '0 Bytes';

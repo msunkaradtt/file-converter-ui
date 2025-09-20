@@ -3,7 +3,7 @@ import { create } from 'zustand';
 import axios from 'axios';
 import JSZip from 'jszip';
 
-const API_URL = 'http://localhost:8000';
+export const API_URL = 'https://server.tools.msunkara.de';
 
 export const useFileStore = create((set, get) => ({
   files: [],
