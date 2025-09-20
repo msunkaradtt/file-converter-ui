@@ -26,7 +26,7 @@ export default function Layout() {
       <footer className="border-t border-border-light mt-auto">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center text-center md:text-left">
-            <p className="text-sm text-subtle-light">&copy; {currentYear} Celestia. All Rights Reserved.</p>
+            <p className="text-sm text-subtle-light">&copy; {currentYear} 2GLB. All Rights Reserved.</p>
             <div className="flex gap-4 mt-4 md:mt-0">
               <p className="text-sm text-subtle-light">Designed & Developed by{' '} 
                 <a href="https://msunkara.de/" className="text-sm text-subtle-light hover:text-primary">msunkara</a>
